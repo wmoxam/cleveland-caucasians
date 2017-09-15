@@ -21,8 +21,8 @@ function handleText(textNode) {
 
 function replaceText(v)
 {
-    v = v.replace(/\b(C|c)leveland (I|i)ndian(s)?\b/g, "$1leveland $2aucasian$3");
-    v = v.replace(/\(T|t)he Indians\b/g, "$1he Caucasians");
+    v = v.replace(/\b(C|c)leveland (I|i)ndian(s)?\b/g, "$1leveland Caucasian$3");
+    v = v.replace(/\b(T|t)he Indians\b/g, "$1he Caucasians");
     v = v.replace(/\bCleveland Tribe\b/g, "Cleveland Imperialists");
 
     return v;
